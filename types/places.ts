@@ -247,7 +247,7 @@ type Point = {
  /**
   * Represents the entire API response structure.
   */
- export interface ApiResponse {
+ export interface PlacesResponse {
    schools: School[];
    parks: Park[];
    transit_stops: TransitStop[];
